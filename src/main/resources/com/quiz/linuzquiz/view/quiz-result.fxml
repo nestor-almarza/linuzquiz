@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="question" layoutX="15.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="569.7294921875" />
+      <Button fx:id="btn3" layoutX="32.0" layoutY="306.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="256.0" text="Button" />
+      <Button fx:id="btn4" layoutX="304.0" layoutY="306.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="256.0" text="Button" />
+      <Button fx:id="btn1" layoutX="32.0" layoutY="224.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="256.0" text="Button" />
+      <Button fx:id="btn2" layoutX="304.0" layoutY="224.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="256.0" text="Button" />
+      <Button fx:id="btnPrevious" layoutX="361.0" layoutY="14.0" mnemonicParsing="false" onAction="#previousScene" text="&lt;-" />
+      <Button fx:id="btnNext" layoutX="432.0" layoutY="14.0" mnemonicParsing="false" onAction="#nextScene" text="-&gt;" />
+      <Button fx:id="exit" layoutX="533.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeApp" prefHeight="25.0" prefWidth="22.0" text="X" />
+   </children>
+</Pane>

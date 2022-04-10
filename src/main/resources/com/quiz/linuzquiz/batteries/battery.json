@@ -1,0 +1,95 @@
+[
+  {
+
+      "title": "On what distro is based Ubuntu?",
+      "choices": [
+        {
+          "response": "Debian",
+          "result": true
+        },
+        {
+          "response": "Fedora",
+          "result": false
+        },
+        {
+          "response": "Arch",
+          "result": false
+        },
+        {
+          "response": "Mint",
+          "result": false
+        }
+      ]
+  },
+  {
+
+      "title": "What is after Friday?",
+      "choices": [
+        {
+          "response": "Saturday",
+          "result": true
+        },
+        {
+          "response": "Hangover",
+          "result": false
+        },
+        {
+          "response": "Monday",
+          "result": false
+        },
+        {
+          "response": "Miau",
+          "result": false
+        }
+      ]
+
+  },
+  {
+
+    "title": "2 + 2?",
+    "choices": [
+      {
+        "response": "2",
+        "result": false
+      },
+      {
+        "response": "3",
+        "result": false
+      },
+      {
+        "response": "4",
+        "result": true
+      },
+      {
+        "response": "1",
+        "result": false
+      }
+    ]
+
+  },
+  {
+
+    "title": "What sport was invented in Spain?",
+    "choices": [
+      {
+        "response": "Football",
+        "result": false
+      },
+      {
+        "response": "Fencing",
+        "result": true
+      },
+      {
+        "response": "Boxing",
+        "result": false
+      },
+      {
+        "response": "Chess",
+        "result": false
+      }
+    ]
+
+  }
+]
+
+
